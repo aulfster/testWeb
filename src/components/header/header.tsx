@@ -3,7 +3,7 @@ import { ReactComponent as Logo } from '../../assets/stackline_logo.svg';
 import './header.css';
 
 function Header(): JSX.Element {
-  const [headerWidth, setHeaderWidth] = useState<number>(0);
+  const [headerWidth, setHeaderWidth] = useState<number>(1400);
   const resizeTimer = useRef<number>();
 
   const updateHeaderWidth = (): void => {
