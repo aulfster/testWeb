@@ -1,0 +1,49 @@
+.card-style {
+  width: 100%;
+  height: 100%;
+}
+
+.image-style {
+  width: 150px;
+  height: auto;
+}
+
+.titleStyle {
+  font-size: 17px;
+  font-family: 'Poppins';
+}
+
+.subtitle-style {
+  margin-top: -10px;
+  font-weight: 200;
+  font-size: 12px;
+  font-family: 'Poppins';
+  color: grey;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.divider {
+  height: 0.25px;
+  background-color: #ccc;
+  width: 100%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+}
+
+.button-style {
+  background: transparent;
+  border: 1px solid #e0e0e0;
+  padding: 5px 15px;
+  border-radius: 4px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-size: 12px;
+}

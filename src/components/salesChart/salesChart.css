@@ -1,0 +1,18 @@
+.chart-container {
+  width: 100%; /* Takes full width of its parent */
+  aspect-ratio: 2.75 / 1; /* width:height ratio */
+}
+
+.card-style {
+  width: 100%;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card-responsive {
+  flex: 1;
+  max-width: 100%;
+}

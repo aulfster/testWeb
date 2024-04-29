@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+.App {
+  text-align: center;
+  background-color: #f0f0f0;
+  overflow-x: auto; /* Allows horizontal scrolling if the content overflows */
+}
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+}
