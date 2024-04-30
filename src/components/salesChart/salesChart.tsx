@@ -63,6 +63,7 @@ const SalesChart: React.FC<SalesChartProps> = ({ salesData }) => {
           maxRotation: 0, // Keeps labels horizontal
           minRotation: 0,
           maxTicksLimit: 12, // Limits the maximum number of ticks displayed
+          color: '#a6a6a6',
           font: {
             size: 13,
             weight: 300,
