@@ -93,7 +93,7 @@ const SalesChart: React.FC<SalesChartProps> = ({ salesData }) => {
         position: 'top' as const,
         align: 'start' as const,
         font: {
-          size: 15,
+          size: 17,
           weight: 400,
           family: 'Poppins',
         },
